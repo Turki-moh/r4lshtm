@@ -100,7 +100,7 @@ pyears(trin_surv ~ smok3, data = trin, scale = 1) %>%
   summary(n = F, rate = T, ci.r = T, scale = 1000)
 
 rateratio(18, 30, 462, 984, conf.level=0.95)
-rateratio(40, 30, 789, 984, conf.level=0.95)
+rateratio(40, 30, 749, 984, conf.level=0.95)
 
 ```
 
